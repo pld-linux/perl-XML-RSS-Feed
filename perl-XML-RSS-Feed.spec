@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	RSS-Feed
+%define		pdir	XML
+%define		pnam	RSS-Feed
 Summary:	XML::RSS::Feed - module for RDF Site Summary (RSS) files managment
 Summary(pl):	XML::RSS::Feed - modu³ do zarz±dzania plikami RDF Site Summary (RSS)
 Name:		perl-XML-RSS-Feed
