@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	RSS-Feed
 Summary:	XML::RSS::Feed - module for RDF Site Summary (RSS) files managment
-Summary(pl):	XML::RSS::Feed - 
+Summary(pl):	XML::RSS::Feed - modu³ do zarz±dzania plikami RDF Site Summary (RSS)
 Name:		perl-XML-RSS-Feed
 Version:	1.05
 Release:	1
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	36172b1757376efe15640d44f392e943
+URL:		http://search.cpan.org/dist/XML-RSS-Feed/
 %if %{with tests}
 BuildRequires:	perl-Clone
 BuildRequires:	perl-Digest-MD5
@@ -27,8 +28,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+XML::RSS::Feed - module for RDF Site Summary (RSS) files managment.
 
 %description -l pl
+XML::RSS::Feed - modu³ do zarz±dzania plikami RDF Site Summary (RSS).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
