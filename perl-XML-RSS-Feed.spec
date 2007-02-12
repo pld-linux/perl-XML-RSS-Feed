@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	RSS-Feed
 Summary:	XML::RSS::Feed - module for RDF Site Summary (RSS) files managment
-Summary(pl):	XML::RSS::Feed - modu³ do zarz±dzania plikami RDF Site Summary (RSS)
+Summary(pl.UTF-8):   XML::RSS::Feed - moduÅ‚ do zarzÄ…dzania plikami RDF Site Summary (RSS)
 Name:		perl-XML-RSS-Feed
 Version:	2.2
 Release:	1
@@ -31,8 +31,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::RSS::Feed - module for RDF Site Summary (RSS) files managment.
 
-%description -l pl
-XML::RSS::Feed - modu³ do zarz±dzania plikami RDF Site Summary (RSS).
+%description -l pl.UTF-8
+XML::RSS::Feed - moduÅ‚ do zarzÄ…dzania plikami RDF Site Summary (RSS).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
