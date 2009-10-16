@@ -8,14 +8,14 @@
 Summary:	XML::RSS::Feed - module for RDF Site Summary (RSS) files managment
 Summary(pl.UTF-8):	XML::RSS::Feed - moduł do zarządzania plikami RDF Site Summary (RSS)
 Name:		perl-XML-RSS-Feed
-Version:	2.2
+Version:	2.32
 Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	d976806ef05a1e4357c1c0e830424cb2
+# Source0-md5:	50a070684776c05834b42e0e0c4e4668
 URL:		http://search.cpan.org/dist/XML-RSS-Feed/
 %if %{with tests}
 BuildRequires:	perl-Clone
@@ -55,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Todo Changes
+%doc Changes
 %{perl_vendorlib}/XML/RSS/*.pm
 %dir %{perl_vendorlib}/XML/RSS/Headline
 %{perl_vendorlib}/XML/RSS/Headline/*.pm
