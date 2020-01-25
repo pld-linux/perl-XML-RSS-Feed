@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	RSS-Feed
 Summary:	XML::RSS::Feed - module for RDF Site Summary (RSS) files managment
