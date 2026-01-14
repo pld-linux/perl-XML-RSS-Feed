@@ -8,7 +8,7 @@ Summary:	XML::RSS::Feed - module for RDF Site Summary (RSS) files managment
 Summary(pl.UTF-8):	XML::RSS::Feed - moduł do zarządzania plikami RDF Site Summary (RSS)
 Name:		perl-XML-RSS-Feed
 Version:	2.32
-Release:	1
+Release:	2
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
